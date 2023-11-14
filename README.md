@@ -14,8 +14,7 @@
 -	<b> What variable(s) should be removed from the input data because they are neither targets nor features? </b> ‘EIN’ and ‘NAME’ which were removed  because they are non-beneficial.
 -	
 2.	<b> Compiling, Training, and Evaluating the Model </b>
-<b>How many neurons, layers, and activation functions did you select for your neural network model, and why? </
-b> For all of the following I used activation ‘relu’ for all layers except the output layer which was ‘sigmoid’. I used 100 epochs for training. 
+<b>How many neurons, layers, and activation functions did you select for your neural network model, and why? </b> For all of the following I used activation ‘relu’ for all layers except the output layer which was ‘sigmoid’. I used 100 epochs for training. 
 -	
 1.	I chose 4 layers to see if more layers provided the best results. The first 2 layers were 20 neurons, the third layer was 7 neurons, and the output layer was one neuron since we were only looking for one value. Loss = .5559  Accuracy = .7271
 2.	I used the implied 3 layers with 30 neurons in the first layer, 7 neurons in the second layer, and 1 neuron in the output layer as a basic model to compare the other models against. Loss = .5533  Accuracy = .7328
